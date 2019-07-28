@@ -14,7 +14,8 @@ Create a `.cliorc` file
 ```json
 {
   "azureDevOps": {
-    "org": "mycompany",
+    "organisation": "mycompany",
+    "project": "myproject",
     "token": "xxx" // <-- https://mycompany.visualstudio.com/_usersSettings/tokens
   },
   "atlassian": {
