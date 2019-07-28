@@ -1,0 +1,68 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "title": "Root",
+  "type": "object",
+  "properties": {
+    "azureDevOps": {
+      "type": "object",
+      "properties": {
+        "organisation": {
+          "example": "microsoft",
+          "type": "string"
+        },
+        "project": {
+          "example": "office",
+          "type": "string"
+        },
+        "token": {
+          "example": "xxx",
+          "type": "string"
+        }
+      },
+      "required": [
+        "organisation",
+        "project",
+        "token"
+      ]
+    },
+    "atlassian": {
+      "type": "object",
+      "properties": {
+        "jira": {
+          "type": "object",
+          "properties": {
+            "host": {
+              "example": "company.atlassian.net",
+              "type": "string"
+            },
+            "defaultProject": {
+              "example": "project",
+              "type": "string"
+            },
+            "email": {
+              "example": "ed.knowles@example.com",
+              "type": "string"
+            },
+            "token": {
+              "example": "xxx",
+              "type": "string"
+            }
+          },
+          "required": [
+            "host",
+            "defaultProject",
+            "email",
+            "token"
+          ]
+        }
+      },
+      "required": [
+        "jira"
+      ]
+    }
+  },
+  "required": [
+    "azureDevOps",
+    "atlassian"
+  ]
+}
