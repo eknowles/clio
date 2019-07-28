@@ -8,7 +8,7 @@
   ],
   "scripts": {
     "build": "lerna run --parallel build",
-    "cli": "node ./packages/cli/dist/index.js"
+    "cli": "node ./packages/cli/bin/clio"
   },
   "dependencies": {
     "lerna": "^3.16.4"
