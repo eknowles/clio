@@ -1,6 +1,6 @@
 {
   "name": "@eknowles/clio-jira",
-  "version": "0.0.1",
+  "version": "0.0.1-alpha.0",
   "main": "./dist/index.js",
   "publishConfig": {
     "access": "public"

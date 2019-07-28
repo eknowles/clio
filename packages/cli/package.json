@@ -1,7 +1,7 @@
 {
   "name": "@eknowles/clio-cli",
   "description": "All in one cli for developers at Somo",
-  "version": "0.0.1",
+  "version": "0.0.1-alpha.0",
   "publishConfig": {
     "access": "public"
   },
