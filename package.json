@@ -1,0 +1,16 @@
+{
+  "name": "clio",
+  "version": "1.0.0",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "lerna run --parallel build",
+    "cli": "node ./packages/cli/dist/index.js"
+  },
+  "dependencies": {
+    "lerna": "^3.16.4"
+  }
+}
