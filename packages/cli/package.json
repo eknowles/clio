@@ -1,6 +1,10 @@
 {
   "name": "@eknowles/clio-cli",
-  "version": "1.0.0",
+  "description": "All in one cli for developers at Somo",
+  "version": "0.0.1",
+  "publishConfig": {
+    "access": "public"
+  },
   "main": "./dist/index.js",
   "scripts": {
     "start": "node ./dist/index.js",

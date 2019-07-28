@@ -1,4 +1,4 @@
-# jira
+# @eknowles/clio-jira
 
 Main interface for Atlassian JIRA API
 

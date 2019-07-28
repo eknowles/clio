@@ -2,6 +2,17 @@
 
 [![lerna](https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg)](https://lerna.js.org/)
 
+### Install
+
+```bash
+$ yarn global add @eknowles/clio-cli
+```
+
+run
+```bash
+$ clio
+```
+
 #### Setup
 
 - [Generate Atlassian Token](https://id.atlassian.com/manage/api-tokens)

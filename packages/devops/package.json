@@ -1,6 +1,9 @@
 {
   "name": "@eknowles/clio-devops",
-  "version": "1.0.0",
+  "version": "0.0.1",
+  "publishConfig": {
+    "access": "public"
+  },
   "main": "./dist/index.js",
   "scripts": {
     "start": "node ./dist/index.js",
